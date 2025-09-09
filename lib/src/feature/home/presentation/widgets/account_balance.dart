@@ -3,9 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:test_level/src/core/utils/app_spacing.dart';
 import 'package:test_level/src/core/utils/app_string.dart';
 
-
-
-
 class TotalBlock extends StatelessWidget {
   const TotalBlock({super.key});
 
@@ -22,13 +19,13 @@ class TotalBlock extends StatelessWidget {
           SizedBox(height: 6),
           Text.rich(
             TextSpan(
-              text: '+\$0.00    ',
+              text: '+\$0.00 ',
               children: [
                 TextSpan(
                   text: ' • ',
                   style: Txt.subAmount.copyWith(color: Color(0XFF828F9B)),
                 ),
-                TextSpan(text: '0.00%', style: Txt.subAmount),
+                TextSpan(text: ' 0.00%', style: Txt.subAmount),
               ],
             ),
 
