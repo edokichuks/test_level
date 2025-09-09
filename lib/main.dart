@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:test_level/src/core/utils/app_colors.dart';
-import 'package:test_level/src/feature/home/presentation/home_screen.dart';
+import 'package:test_level/src/feature/bottom_nav/presentation/app_bottom_nav_bar.dart';
 
-void main() => runApp(const FinanceApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  runApp(ProviderScope(child: FinanceApp()));
+}
 
 class FinanceApp extends StatelessWidget {
   const FinanceApp({super.key});
@@ -35,7 +40,7 @@ class FinanceApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const HomeScreen(),
+      home: AppBottomNavScreen(),
     );
   }
 }

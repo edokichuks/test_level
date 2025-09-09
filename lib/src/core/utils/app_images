@@ -12,23 +12,12 @@ class AppImages {
   static String bank =  'assets/svg/bank.svg';
   static String dollar =  'assets/svg/dollar.svg';
 
-  //BOTTOM TAB ICONS (Inactive)
-  static String homeInactive = 'assets/images/svg/homeInactive.svg';
-  static String cardInactive = 'assets/images/svg/card_inactive.svg';
-  static String historyInactive = 'assets/images/svg/history_inactive.svg';
-  static String profileInactive = 'assets/images/svg/profile_inactive.svg';
-  static String stampInactive = 'assets/images/svg/stampInactive.svg';
-  static String chartInactive = 'assets/images/svg/inactiveChart.svg';
-  static String reportInactive = 'assets/images/svg/inactiveReport.svg';
-
   //BOTTOM TAB ICONS (Active)
-  static String homeActive = 'assets/images/svg/homeActive.svg';
-  static String cardActive = 'assets/images/svg/card_active.svg';
-  static String historyActive = 'assets/images/svg/history_active.svg';
-  static String profileActive = 'assets/images/svg/profile_active.svg';
-  static String stampActive = 'assets/images/svg/stamp.svg';
-  static String chartActive = 'assets/images/svg/chart.svg';
-  static String reportActive = 'assets/images/svg/chat.svg';
+  static String home = 'assets/svg/home.svg';
+  static String explore = 'assets/svg/explore.svg';
+  static String porttfolio = 'assets/svg/porttfolio.svg';
+  static String profile = 'assets/svg/profile.svg';
+
 
   //ANIMATIONS
  
